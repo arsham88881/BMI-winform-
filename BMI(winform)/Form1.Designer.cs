@@ -31,20 +31,22 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
-            this.lblResult = new System.Windows.Forms.Label();
+            this.lblResultupper = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnRemach = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.txtboxRighter = new System.Windows.Forms.TextBox();
             this.txtLefter = new System.Windows.Forms.TextBox();
+            this.lbllowerr = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.lbllowerr);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.lbl1);
-            this.panel1.Controls.Add(this.lblResult);
+            this.panel1.Controls.Add(this.lblResultupper);
             this.panel1.Controls.Add(this.btnCalculate);
             this.panel1.Controls.Add(this.btnRemach);
             this.panel1.Controls.Add(this.btnExit);
@@ -75,15 +77,16 @@
             this.lbl1.TabIndex = 6;
             this.lbl1.Text = ":قد";
             // 
-            // lblResult
+            // lblResultupper
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.Location = new System.Drawing.Point(375, 153);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(221, 29);
-            this.lblResult.TabIndex = 5;
-            this.lblResult.Text = ".قد و وزن خود را وارد کنید";
+            this.lblResultupper.AutoSize = true;
+            this.lblResultupper.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultupper.Location = new System.Drawing.Point(360, 128);
+            this.lblResultupper.Name = "lblResultupper";
+            this.lblResultupper.Size = new System.Drawing.Size(221, 29);
+            this.lblResultupper.TabIndex = 5;
+            this.lblResultupper.Text = ".قد و وزن خود را وارد کنید";
+            this.lblResultupper.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnCalculate
             // 
@@ -132,6 +135,16 @@
             this.txtLefter.Size = new System.Drawing.Size(188, 45);
             this.txtLefter.TabIndex = 1;
             // 
+            // lbllowerr
+            // 
+            this.lbllowerr.AutoSize = true;
+            this.lbllowerr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllowerr.Location = new System.Drawing.Point(212, 178);
+            this.lbllowerr.Name = "lbllowerr";
+            this.lbllowerr.Size = new System.Drawing.Size(0, 29);
+            this.lbllowerr.TabIndex = 8;
+            this.lbllowerr.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // BMI_calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -157,9 +170,10 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnRemach;
-        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Label lblResultupper;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbllowerr;
     }
 }
 
