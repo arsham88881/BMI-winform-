@@ -1,0 +1,11 @@
+E:\vvpppppppp\BMI(winform)\BMI(winform)\bin\Debug\BMI(winform).exe.config
+E:\vvpppppppp\BMI(winform)\BMI(winform)\bin\Debug\BMI(winform).exe
+E:\vvpppppppp\BMI(winform)\BMI(winform)\bin\Debug\BMI(winform).pdb
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).csproj.AssemblyReference.cache
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).csproj.SuggestedBindingRedirects.cache
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI_winform_.BMI_calculator.resources
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI_winform_.Properties.Resources.resources
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).csproj.GenerateResource.cache
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).csproj.CoreCompileInputs.cache
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).exe
+E:\vvpppppppp\BMI(winform)\BMI(winform)\obj\Debug\BMI(winform).pdb
