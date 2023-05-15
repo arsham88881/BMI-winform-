@@ -108,6 +108,7 @@
             this.btnRemach.TabIndex = 3;
             this.btnRemach.Text = "تنظیم مجدد";
             this.btnRemach.UseVisualStyleBackColor = true;
+            this.btnRemach.Click += new System.EventHandler(this.btnRemach_Click);
             // 
             // btnExit
             // 
@@ -118,6 +119,7 @@
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "خروج";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txtboxRighter
             // 

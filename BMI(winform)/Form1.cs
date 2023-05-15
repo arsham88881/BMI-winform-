@@ -18,6 +18,31 @@ namespace BMI_winform_
         }
         string statusshow;
         double height, weight,curBMI;
+
+        private void btnRemach_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            this.InitializeComponent();
+            this.BackColor = Color.White;   
+            /*
+            foreach (Control n in Controls)
+            {
+                n.BackColor = Color.White;
+                n.Text = "";
+            }
+            */
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult zzz;
+            zzz = MessageBox.Show("از خروج خود مطمئن هستید؟", "خروج", MessageBoxButtons.YesNo);
+            if(zzz == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
         double bestBMIupperband, bestBMIlowwerband;
         private void btnCalculate_Click(object sender, EventArgs e)
         {
